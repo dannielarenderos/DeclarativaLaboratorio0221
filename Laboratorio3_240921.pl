@@ -57,16 +57,16 @@ color_cabello_v2(castano).
 colorCabello_v2(Solucion):-
 	Solucion = [[srablanco, B], [srarubio, R], [sracastano, C]],
 
-% Color de cabello de la señora Blanco:
+% Color de cabello de la seÃ±ora Blanco:
 	color_cabello_v2(B),
 	\==(B, blanco),
-	\==(B, castano), %Se afirma que la señora Blanco no
-				 %tiene el pelo de color castaño.
-% Color de cabello de la señora Rubio:
+	\==(B, castano), %Se afirma que la seÃ±ora Blanco no
+				 %tiene el pelo de color castaÃ±o.
+% Color de cabello de la seÃ±ora Rubio:
 	color_cabello_v2(R),
 	\==(R, rubio),
 	\==(R, B),
-% Color de cabello de la señora Castano:
+% Color de cabello de la seÃ±ora Castano:
 	color_cabello_v2(C),
 	\==(C, castano),
 	\==(C, B),
